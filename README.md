@@ -5,7 +5,7 @@ VMeter Touch Music Controller and Display Source Software and Hardware.
 
 <img width="300" src="https://raw.githubusercontent.com/curiousinventor/VMeter/master/vmeter_controller.jpg">
 
-The VMeter is a touch strip and LED display that can be used to control music programs with position and pseudo-pressure. It's like a motorized slider without any moving parts. It can control and display controller changes, track volumes or just act like a pitch or mod wheel that allows for instantaneous changes. For most music programs, the VMeter simply shows up as a generic USB MIDI device with no additional software needed. It can also be used to control or display PC or Mac system volume and CPU activity on PC (system volume control requires additional installed software). 
+The VMeter is a touch strip and LED display that can be used to control music programs with position and pseudo-pressure. It's like a motorized slider without any moving parts that enables instaneous jumping between different points. It can control and display controller changes, track volumes or just act like a pitch or mod wheel. For most music programs, no additional software needed is needed as the VMeter simply shows up as a generic USB MIDI device. It can also be used to control or display PC or Mac system volume and CPU activity on PC (system volume control requires additional installed software). 
 
 The software is based on the <a href="http://www.fourwalledcubicle.com/LUFA.php">LUFA USB library</a> and Atmel's <a href="http://www.atmel.com/products/touchsolutions/touchsoftware/">QTouch</a> capacitive sensing library (same type of touch sensing in most cell phones). 
 
