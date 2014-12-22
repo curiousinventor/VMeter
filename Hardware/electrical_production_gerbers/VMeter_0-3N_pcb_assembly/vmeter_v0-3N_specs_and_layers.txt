@@ -1,0 +1,41 @@
+Overall:
+-qty: 500
+-boards should be individually routed, NO V Score. Edges must be smooth.
+-unique parts: 22
+-total parts per board: 96
+-total fine smd parts: 3
+-total pins: 260
+size: 6.65x.940in
+
+
+
+Special notes:
+-USB connector J1 overhangs edge. Route that edge before placing.
+-ENTIRE EDGE MUST BE ROUTED. NO V-SCORE.
+-Components that are not placed should NOT have solder paste (C5, U1, D41, R63, R43, J3, P1, R2, C15). The plastic piece that glues to the pcb only has holes for the placed components.
+
+
+PCB:
+-4 layers
+-1/16" thickness
+-Black solder mask both sides
+-White silk screen
+-1oz copper
+-FR4
+-RoHS required
+-electrical test requested
+
+
+Layers:
+-top copper: vol_touch-Front.gtl
+-2nd copper: from top: vol_touch-Inner3.gbr
+-3rd copper: from top: vol_touch-Inner2.gbr
+-bot copper: vol_touch-Back.gbl
+-top mask: vol_touch-Mask_Front.gts
+-bot mask: vol_touch-Mask_Back.gbs
+-edges: vol_touch-PCB_Edges.gbr
+-top silk: vol_touch-SilkS_Front.gto
+-top paste: vol_touch-SoldP_Front.gtp
+-drill: vol_touch.drl
+
+Parts Locations file: vmeter_0-3N_component_positions.pos

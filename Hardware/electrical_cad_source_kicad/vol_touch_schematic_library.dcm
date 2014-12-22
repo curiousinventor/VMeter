@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0  Date: 12/7/2012 8:50:25 AM
+#
+$CMP MC74HC595A
+D 8 bits serial in // out Shift Register 3 State Out
+K HCMOS SR 3State
+F 74xx/74HC595.pdf
+$ENDCMP
+#
+#End Doc Library

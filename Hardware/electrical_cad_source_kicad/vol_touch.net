@@ -1,0 +1,1285 @@
+# EESchema Netlist Version 1.1 created  12/7/2012 9:09:08 AM
+(
+ ( /4D490324 0402_CAP C1 12pF
+  ( 1 N-000081 )
+  ( 2 GND )
+ )
+ ( /4D49033A 0402_CAP C2 12pF
+  ( 1 N-000053 )
+  ( 2 GND )
+ )
+ ( /4D49096F 0402_cap C3 1uF
+  ( 1 GND )
+  ( 2 /VIN )
+ )
+ ( /4D49095F 0402_CAP C4 .1uF
+  ( 1 GND )
+  ( 2 /VIN )
+ )
+ ( /4EF8831D 0402_CAP C5 .01uF_(opt)
+  ( 1 N-000010 )
+  ( 2 /VCCA )
+ )
+ ( /4D49094F 0402_CAP C6 .1uF
+  ( 1 GND )
+  ( 2 /VCCA )
+ )
+ ( /4D4903F2 0402_CAP C7 1uF
+  ( 1 GND )
+  ( 2 N-000013 )
+ )
+ ( /4EFC69E3 0402_CAP C8 .1uF
+  ( 1 GND )
+  ( 2 /VCCA )
+ )
+ ( /4D490381 0402_CAP C9 .1uF
+  ( 1 GND )
+  ( 2 /VCCA )
+ )
+ ( /4D49038E 0402_CAP C10 .1uF
+  ( 1 GND )
+  ( 2 /VCCA )
+ )
+ ( /4D490390 0402_CAP C11 .1uF
+  ( 1 GND )
+  ( 2 /VCCA )
+ )
+ ( /4D4A360F 0402_CAP C12 4.7nF
+  ( 1 /Y0B )
+  ( 2 /Y0A )
+ )
+ ( /4EF87C0A SM0805 C13 10uF
+  ( 1 GND )
+  ( 2 /VCCA )
+ )
+ ( /4EFC69DC 0402_cap C14 .1uF
+  ( 1 GND )
+  ( 2 /VCCA )
+ )
+ ( /50C1F45D 0402_cap C15 4.7nF
+  ( 1 N-000051 )
+  ( 2 GND )
+ )
+ ( /4D491A99 BLUE_LED_APTR3216QBC_UPDATED D1 LED
+  ( 1 /SEGDP )
+  ( 2 /DIG0 )
+ )
+ ( /4D491A98 BLUE_LED_APTR3216QBC_UPDATED D2 LED
+  ( 1 /SEGA )
+  ( 2 /DIG0 )
+ )
+ ( /4D491A96 BLUE_LED_APTR3216QBC_UPDATED D3 LED
+  ( 1 /SEGB )
+  ( 2 /DIG0 )
+ )
+ ( /4D491A97 BLUE_LED_APTR3216QBC_UPDATED D4 LED
+  ( 1 /SEGC )
+  ( 2 /DIG0 )
+ )
+ ( /4D491A92 BLUE_LED_APTR3216QBC_UPDATED D5 LED
+  ( 1 /SEGD )
+  ( 2 /DIG0 )
+ )
+ ( /4D491A93 BLUE_LED_APTR3216QBC_UPDATED D6 LED
+  ( 1 /SEGE )
+  ( 2 /DIG0 )
+ )
+ ( /4D491A95 BLUE_LED_APTR3216QBC_UPDATED D7 LED
+  ( 1 /SEGF )
+  ( 2 /DIG0 )
+ )
+ ( /4D491A94 BLUE_LED_APTR3216QBC_UPDATED D8 LED
+  ( 1 /SEGG )
+  ( 2 /DIG0 )
+ )
+ ( /4D49197E BLUE_LED_APTR3216QBC_UPDATED D9 LED
+  ( 1 /SEGDP )
+  ( 2 /DIG3 )
+ )
+ ( /4D491999 BLUE_LED_APTR3216QBC_UPDATED D10 LED
+  ( 1 /SEGA )
+  ( 2 /DIG3 )
+ )
+ ( /4D49199D BLUE_LED_APTR3216QBC_UPDATED D11 LED
+  ( 1 /SEGB )
+  ( 2 /DIG3 )
+ )
+ ( /4D49199C BLUE_LED_APTR3216QBC_UPDATED D12 LED
+  ( 1 /SEGC )
+  ( 2 /DIG3 )
+ )
+ ( /4D4919A3 BLUE_LED_APTR3216QBC_UPDATED D13 LED
+  ( 1 /SEGD )
+  ( 2 /DIG3 )
+ )
+ ( /4D4919A2 BLUE_LED_APTR3216QBC_UPDATED D14 LED
+  ( 1 /SEGE )
+  ( 2 /DIG3 )
+ )
+ ( /4D4919A0 BLUE_LED_APTR3216QBC_UPDATED D15 LED
+  ( 1 /SEGF )
+  ( 2 /DIG3 )
+ )
+ ( /4D4919A1 BLUE_LED_APTR3216QBC_UPDATED D16 LED
+  ( 1 /SEGG )
+  ( 2 /DIG3 )
+ )
+ ( /4D491AB0 BLUE_LED_APTR3216QBC_UPDATED D17 LED
+  ( 1 /SEGDP )
+  ( 2 /DIG1 )
+ )
+ ( /4D491AB1 BLUE_LED_APTR3216QBC_UPDATED D18 LED
+  ( 1 /SEGA )
+  ( 2 /DIG1 )
+ )
+ ( /4D491AB3 BLUE_LED_APTR3216QBC_UPDATED D19 LED
+  ( 1 /SEGB )
+  ( 2 /DIG1 )
+ )
+ ( /4D491AB2 BLUE_LED_APTR3216QBC_UPDATED D20 LED
+  ( 1 /SEGC )
+  ( 2 /DIG1 )
+ )
+ ( /4D491AB7 BLUE_LED_APTR3216QBC_UPDATED D21 LED
+  ( 1 /SEGD )
+  ( 2 /DIG1 )
+ )
+ ( /4D491AB6 BLUE_LED_APTR3216QBC_UPDATED D22 LED
+  ( 1 /SEGE )
+  ( 2 /DIG1 )
+ )
+ ( /4D491AB4 BLUE_LED_APTR3216QBC_UPDATED D23 LED
+  ( 1 /SEGF )
+  ( 2 /DIG1 )
+ )
+ ( /4D491AB5 BLUE_LED_APTR3216QBC_UPDATED D24 LED
+  ( 1 /SEGG )
+  ( 2 /DIG1 )
+ )
+ ( /4D491ABF BLUE_LED_APTR3216QBC_UPDATED D25 LED
+  ( 1 /SEGDP )
+  ( 2 /DIG2 )
+ )
+ ( /4D491ABE BLUE_LED_APTR3216QBC_UPDATED D26 LED
+  ( 1 /SEGA )
+  ( 2 /DIG2 )
+ )
+ ( /4D491ABC BLUE_LED_APTR3216QBC_UPDATED D27 LED
+  ( 1 /SEGB )
+  ( 2 /DIG2 )
+ )
+ ( /4D491ABD BLUE_LED_APTR3216QBC_UPDATED D28 LED
+  ( 1 /SEGC )
+  ( 2 /DIG2 )
+ )
+ ( /4D491AB8 BLUE_LED_APTR3216QBC_UPDATED D29 LED
+  ( 1 /SEGD )
+  ( 2 /DIG2 )
+ )
+ ( /4D491AB9 BLUE_LED_APTR3216QBC_UPDATED D30 LED
+  ( 1 /SEGE )
+  ( 2 /DIG2 )
+ )
+ ( /4D491ABB BLUE_LED_APTR3216QBC_UPDATED D31 LED
+  ( 1 /SEGF )
+  ( 2 /DIG2 )
+ )
+ ( /4D491ABA BLUE_LED_APTR3216QBC_UPDATED D32 LED
+  ( 1 /SEGG )
+  ( 2 /DIG2 )
+ )
+ ( /4D491A9E BLUE_LED_APTR3216QBC_UPDATED D35 LED
+  ( 1 /SEGB )
+  ( 2 /DIG4 )
+ )
+ ( /4D491A9F BLUE_LED_APTR3216QBC_UPDATED D36 LED
+  ( 1 /SEGC )
+  ( 2 /DIG4 )
+ )
+ ( /4D491A9A BLUE_LED_APTR3216QBC_UPDATED D37 LED
+  ( 1 /SEGD )
+  ( 2 /DIG4 )
+ )
+ ( /4D491A9B BLUE_LED_APTR3216QBC_UPDATED D38 LED
+  ( 1 /SEGE )
+  ( 2 /DIG4 )
+ )
+ ( /4D491A9D BLUE_LED_APTR3216QBC_UPDATED D39 LED
+  ( 1 /SEGF )
+  ( 2 /DIG4 )
+ )
+ ( /4D491A9C BLUE_LED_APTR3216QBC_UPDATED D40 LED
+  ( 1 /SEGG )
+  ( 2 /DIG4 )
+ )
+ ( /4D4A4838 LED-0603 D41 LED
+  ( 1 N-000072 )
+  ( 2 GND )
+ )
+ ( /4D491136 ZX62-B-5PA_MICRO_USB J1 USB2
+  ( 1 /VIN )
+  ( 2 /usbD- )
+  ( 3 /usbD+ )
+  ( 4 ? )
+  ( 5 GND )
+  ( 6 N-000051 )
+ )
+ ( /4EF8A626 aux_port J3 aux
+  ( 1 /BB_SCK )
+  ( 2 /D4 )
+  ( 3 /BB_MOSI )
+  ( 4 /BB_SS )
+  ( 5 /D7boot )
+ )
+ ( /4D4AB2BF cap_key_306x557 K1 CAP_KEP
+  ( 1 /X0key_top )
+  ( 2 /X0key_top )
+ )
+ ( /4D4AB4A6 cap_key_306x557 K2 CAP_KEP
+  ( 1 /X01key_top )
+  ( 2 /X01key_top )
+ )
+ ( /4D4AB61D cap_key_306x557 K3 CAP_KEP
+  ( 1 /X1key_top )
+  ( 2 /X1key_top )
+ )
+ ( /4D4AB61C cap_key_306x557 K4 CAP_KEP
+  ( 1 /X12key_top )
+  ( 2 /X12key_top )
+ )
+ ( /4D4AB638 cap_key_306x557 K5 CAP_KEP
+  ( 1 /X4key_bot )
+  ( 2 /X4key_bot )
+ )
+ ( /4D4AB686 cap_key_306x557 K6 CAP_KEP
+  ( 1 /X6key_bot )
+  ( 2 /X6key_bot )
+ )
+ ( /4D4AB698 cap_key_306x557 K7 CAP_KEP
+  ( 1 /X7key_top )
+  ( 2 /X7key_top )
+ )
+ ( /4D4AB625 cap_key_306x557 K8 CAP_KEP
+  ( 1 /X2key_top )
+  ( 2 /X2key_top )
+ )
+ ( /4D4AB639 cap_key_306x557 K9 CAP_KEP
+  ( 1 /X45key_bot )
+  ( 2 /X45key_bot )
+ )
+ ( /4D4AB63F cap_key_306x557 K10 CAP_KEP
+  ( 1 /X5key_bot )
+  ( 2 /X5key_bot )
+ )
+ ( /4D4AB687 cap_key_306x557 K11 CAP_KEP
+  ( 1 /X67key_bot )
+  ( 2 /X67key_bot )
+ )
+ ( /4D4AB626 cap_key_306x557 K12 CAP_KEP
+  ( 1 /X23key_bot )
+  ( 2 /X23key_bot )
+ )
+ ( /4D4AB62B cap_key_306x557 K13 CAP_KEP
+  ( 1 /X3key_bot )
+  ( 2 /X3key_bot )
+ )
+ ( /4D4AB63E cap_key_306x557 K14 CAP_KEP
+  ( 1 /X56key_bot )
+  ( 2 /X56key_bot )
+ )
+ ( /4D4AB62A cap_key_306x557 K15 CAP_KEP
+  ( 1 /X34key_bot )
+  ( 2 /X34key_bot )
+ )
+ ( /4F4531E0 2x8_smt_header P1 CONN_8
+  ( 1 /VIN )
+  ( 2 GND )
+  ( 3 /~SS )
+  ( 4 /MOSI )
+  ( 5 /MISO )
+  ( 6 /SCLK )
+  ( 7 /RESET )
+  ( 8 /VCCA )
+ )
+ ( /4D4918B5 0402_CAP R1 10K
+  ( 1 /VCCA )
+  ( 2 /RESET )
+ )
+ ( /50C1F43E 0402_cap R2 1M
+  ( 1 GND )
+  ( 2 N-000051 )
+ )
+ ( /4EFC6807 0402_CAP R3 150
+  ( 1 N-000021 )
+  ( 2 /SEGG )
+ )
+ ( /4D4A36ED 0402_CAP R4 470K
+  ( 1 /SMP )
+  ( 2 /Y0B )
+ )
+ ( /4D4A354A 0402_CAP R5 560
+  ( 1 /X0key_top )
+  ( 2 /X0 )
+ )
+ ( /4D4AB829 0402_CAP R6 1K
+  ( 1 /Ykey )
+  ( 2 /Y0A )
+ )
+ ( /4D589C5E 0402_CAP R7 22
+  ( 1 /usbD+ )
+  ( 2 N-000014 )
+ )
+ ( /4D589C58 0402_CAP R8 22
+  ( 1 /usbD- )
+  ( 2 N-000011 )
+ )
+ ( /4EF88195 0402_cap R9 7.5k
+  ( 1 N-000010 )
+  ( 2 /VCCA )
+ )
+ ( /4EF88265 0402_cap R10 3.48k
+  ( 1 GND )
+  ( 2 N-000010 )
+ )
+ ( /4EFC682E 0402_cap R11 150
+  ( 1 N-000022 )
+  ( 2 /SEGF )
+ )
+ ( /4EFC6832 0402_cap R12 150
+  ( 1 N-000036 )
+  ( 2 /SEGE )
+ )
+ ( /4EFC6831 0402_cap R13 150
+  ( 1 N-000023 )
+  ( 2 /SEGD )
+ )
+ ( /4D4A3F77 0402_CAP R14 560
+  ( 1 /X1key_top )
+  ( 2 /X1 )
+ )
+ ( /4D4A3F7E 0402_CAP R15 560
+  ( 1 /X2key_top )
+  ( 2 /X2 )
+ )
+ ( /4D4A3F85 0402_CAP R16 560
+  ( 1 /X3key_bot )
+  ( 2 /X3 )
+ )
+ ( /4D4A3F8C 0402_CAP R17 560
+  ( 1 /X4key_bot )
+  ( 2 /X4 )
+ )
+ ( /4D4A3F93 0402_CAP R18 560
+  ( 1 N-000015 )
+  ( 2 /X5 )
+ )
+ ( /4D4A3F9A 0402_CAP R19 560
+  ( 1 /X6key_bot )
+  ( 2 /X6 )
+ )
+ ( /4D4A3F76 0402_CAP R20 560
+  ( 1 N-000064 )
+  ( 2 /X7 )
+ )
+ ( /4EFC6836 0402_cap R21 150
+  ( 1 N-000032 )
+  ( 2 /SEGC )
+ )
+ ( /4EFC6835 0402_cap R22 150
+  ( 1 N-000033 )
+  ( 2 /SEGB )
+ )
+ ( /4EFC6833 0402_cap R23 150
+  ( 1 N-000035 )
+  ( 2 /SEGA )
+ )
+ ( /4EFC6834 0402_cap R24 150
+  ( 1 N-000034 )
+  ( 2 /SEGDP )
+ )
+ ( /50C1F5F8 0402_cap R25 150
+  ( 1 /X5key_bot )
+  ( 2 N-000015 )
+ )
+ ( /50C1F6F5 0402_cap R26 150
+  ( 1 /X7key_top )
+  ( 2 N-000064 )
+ )
+ ( /4D4AB61E SM0603 R28 3.3K
+  ( 1 /X12key_top )
+  ( 2 /X1key_top )
+ )
+ ( /4D4AB637 SM0603 R29 3.3K
+  ( 1 /X45key_bot )
+  ( 2 /X4key_bot )
+ )
+ ( /4D4AB685 SM0603 R30 3.3K
+  ( 1 /X67key_bot )
+  ( 2 /X6key_bot )
+ )
+ ( /4D4AB6A6 SM0603 R31 3.3K
+  ( 1 /X1key_top )
+  ( 2 /X01key_top )
+ )
+ ( /4D4AB624 SM0603 R32 3.3K
+  ( 1 /X23key_bot )
+  ( 2 /X2key_top )
+ )
+ ( /4D4AB640 SM0603 R33 3.3K
+  ( 1 /X56key_bot )
+  ( 2 /X5key_bot )
+ )
+ ( /4D4AB62C SM0603 R34 3.3K
+  ( 1 /X34key_bot )
+  ( 2 /X3key_bot )
+ )
+ ( /4D4A3DEB SM0603 R35 3.3K
+  ( 1 /X01key_top )
+  ( 2 /X0key_top )
+ )
+ ( /4D4AB6AB SM0603 R36 3.3K
+  ( 1 /X2key_top )
+  ( 2 /X12key_top )
+ )
+ ( /4D4AB6BC SM0603 R37 3.3K
+  ( 1 /X7key_top )
+  ( 2 /X67key_bot )
+ )
+ ( /4D4AB6B0 SM0603 R38 3.3K
+  ( 1 /X3key_bot )
+  ( 2 /X23key_bot )
+ )
+ ( /4D4AB6B6 SM0603 R39 3.3K
+  ( 1 /X5key_bot )
+  ( 2 /X45key_bot )
+ )
+ ( /4D4AB6BA SM0603 R40 3.3K
+  ( 1 /X6key_bot )
+  ( 2 /X56key_bot )
+ )
+ ( /4D4AB6B3 SM0603 R41 3.3K
+  ( 1 /X4key_bot )
+  ( 2 /X34key_bot )
+ )
+ ( /4D593321 0402_cap R43 1K
+  ( 1 ? )
+  ( 2 /Ykey )
+ )
+ ( /4D4A4832 0402_CAP R63 360
+  ( 1 N-000072 )
+  ( 2 /D4 )
+ )
+ ( /4D590245 IP4221CZ6-S_usb_esd U1 IP4221CZ6-S_USB_ESD
+  ( 1 /usbD+ )
+  ( 2 GND )
+  ( 3 /usbD- )
+  ( 4 ? )
+  ( 5 /VIN )
+  ( 6 ? )
+ )
+ ( /4EF82B83 SOT23-5 U2 SP6201EM5-L
+  ( 1 /VIN )
+  ( 2 GND )
+  ( 3 /VIN )
+  ( 4 N-000010 )
+  ( 5 /VCCA )
+ )
+ ( /4D49021F TQFP32_AT90USB162 U3 AT90USB162
+  ( 1 N-000081 )
+  ( 2 N-000053 )
+  ( 3 GND )
+  ( 4 /VCCA )
+  ( 5 /Y0A )
+  ( 6 /BB_SCK )
+  ( 7 GND )
+  ( 8 /Y0B )
+  ( 9 /SMP )
+  ( 10 /D4 )
+  ( 11 /BB_MOSI )
+  ( 12 /BB_SS )
+  ( 13 /D7boot )
+  ( 14 /~SS )
+  ( 15 /SCLK )
+  ( 16 /MOSI )
+  ( 17 /MISO )
+  ( 18 /X0 )
+  ( 19 /X1 )
+  ( 20 /X2 )
+  ( 21 /X3 )
+  ( 22 /X7 )
+  ( 23 /X6 )
+  ( 24 /RESET )
+  ( 25 /X5 )
+  ( 26 /X4 )
+  ( 27 N-000013 )
+  ( 28 GND )
+  ( 29 N-000014 )
+  ( 30 N-000011 )
+  ( 31 /VCCA )
+  ( 32 /VCCA )
+ )
+ ( /4EFC60D2 TSSOP16 U4 MC74HC595A
+  ( 1 N-000022 )
+  ( 2 N-000036 )
+  ( 3 N-000023 )
+  ( 4 N-000032 )
+  ( 5 N-000033 )
+  ( 6 N-000035 )
+  ( 7 N-000034 )
+  ( 8 GND )
+  ( 9 N-000024 )
+  ( 10 /VCCA )
+  ( 11 /BB_SCK )
+  ( 12 /BB_SS )
+  ( 13 GND )
+  ( 14 /BB_MOSI )
+  ( 15 N-000021 )
+  ( 16 /VCCA )
+ )
+ ( /4EFC67FC TSSOP16 U5 MC74HC595A
+  ( 1 /DIG1 )
+  ( 2 /DIG2 )
+  ( 3 /DIG3 )
+  ( 4 /DIG4 )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 GND )
+  ( 9 ? )
+  ( 10 /VCCA )
+  ( 11 /BB_SCK )
+  ( 12 /BB_SS )
+  ( 13 GND )
+  ( 14 N-000024 )
+  ( 15 /DIG0 )
+  ( 16 /VCCA )
+ )
+ ( /4D490317 NX5032GA_8mhz_crystal X1 8MHz
+  ( 1 N-000081 )
+  ( 2 N-000053 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D8
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D9
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D10
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D11
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D12
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D13
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D14
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D15
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D16
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D17
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D18
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D19
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D20
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D21
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D22
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D23
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D24
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D25
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D26
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D27
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D28
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D29
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D30
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D31
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D32
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D35
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D36
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D37
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D38
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D39
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D40
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D41
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R28
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R29
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R30
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R31
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R32
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R33
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R34
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R35
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R36
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R37
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R38
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R39
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R40
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R41
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R43
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R63
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
