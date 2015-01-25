@@ -1,0 +1,17 @@
+// VMeter_v0.idl : IDL source for VMeter_v0
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (VMeter_v0.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(E3110A94-0938-426C-AC88-0D2C948EA8F2),
+	version(1.0)	
+]
+library VMeter_v0Lib
+{
+	importlib("stdole2.tlb");
+};

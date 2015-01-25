@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'VMeter'
+				'VMeter.EXE'
+				{
+			val AppID = s '%APPID%'
+		}
+	}
+}

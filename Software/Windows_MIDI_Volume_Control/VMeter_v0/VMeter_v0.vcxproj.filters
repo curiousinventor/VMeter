@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\midi">
+      <UniqueIdentifier>{8ba232b4-87f4-4713-932f-52f862f9eda5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\midi">
+      <UniqueIdentifier>{97f6e880-5696-4da8-ac51-830cf6dd7907}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\VMeter_v0.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\VMeter_v0.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="VMeter_v0.rgs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\vmeter_icon.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\..\..\public\pictures\sample pictures\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VMeter_v0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VMeter_v0Dlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\tray test\NTray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VMeter_v0_i.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="midi\LongMsg.h">
+      <Filter>Header Files\midi</Filter>
+    </ClInclude>
+    <ClInclude Include="midi\midi.h">
+      <Filter>Header Files\midi</Filter>
+    </ClInclude>
+    <ClInclude Include="midi\MIDIInDevice.h">
+      <Filter>Header Files\midi</Filter>
+    </ClInclude>
+    <ClInclude Include="midi\MIDIMsg.h">
+      <Filter>Header Files\midi</Filter>
+    </ClInclude>
+    <ClInclude Include="midi\MIDIOutDevice.h">
+      <Filter>Header Files\midi</Filter>
+    </ClInclude>
+    <ClInclude Include="midi\ShortMsg.h">
+      <Filter>Header Files\midi</Filter>
+    </ClInclude>
+    <ClInclude Include="MIDI_Devices_Dialog.h">
+      <Filter>Header Files\midi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VMeter_v0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VMeter_v0Dlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NTray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="midi\ShortMsg.cpp">
+      <Filter>Source Files\midi</Filter>
+    </ClCompile>
+    <ClCompile Include="midi\LongMsg.cpp">
+      <Filter>Source Files\midi</Filter>
+    </ClCompile>
+    <ClCompile Include="midi\MIDIInDevice.cpp">
+      <Filter>Source Files\midi</Filter>
+    </ClCompile>
+    <ClCompile Include="midi\MIDIOutDevice.cpp">
+      <Filter>Source Files\midi</Filter>
+    </ClCompile>
+    <ClCompile Include="MIDI_Devices_Dialog.cpp">
+      <Filter>Source Files\midi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VMeter_v0.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="VMeter_v0.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+  </ItemGroup>
+</Project>
