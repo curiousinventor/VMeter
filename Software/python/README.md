@@ -1,19 +1,21 @@
 Instructions copied from <a href="http://vmeter.net/python-control-of-vmeter-usb-midi-device-via-pyportmidi-and-portmidi/">VMeter Python MIDI Control</a>.
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/rwfxXF12d7I?list=UUOGrxFj_j7PZRQM63OFCwmA" frameborder="0" allowfullscreen></iframe>
+[![VMeter Python Video Demo](http://img.youtube.com/vi/rwfxXF12d7I/0.jpg)](http://www.youtube.com/watch?v=rwfxXF12d7I)
+
+VMeter Python Demo
 
 <h1>Python Control of VMeter USB MIDI Device via PyPortMIDI and MidiPort</h1>
-<p>&nbsp;</p>
+
 <p>This tutorial will show how to setup pyMidiPort on OS X to control the VMeter USB MIDI device with python scripts. Using the new sysex commands in the latest VMeter firmware (1.8, only on hardware rev B+), you can control every single LED directly (not just columns as with MIDI Controller messages).</p>
-<p>&nbsp;</p>
+
 <p>&nbsp;Check out the video demo here: <a href="http://vmeter.net/controlling-individual-vmeter-leds-via-midi-binary-clock-game-of-life-demos/">Binary Clock, Chase, Treadmill, Game of Life via Individual LED control of VMeter.</a></p>
-<p>&nbsp;</p>
+
 <p><span style="color: #ff0000;">Warning</span>: installing pyPortMidi may require a bit of installation judo and trial &amp; error. It may take 5 min., but it took us 2 days! If you know other software for MIDI and python let us know! <a href="https://groups.google.com/forum/#!topic/pygame-mirror-on-google-groups/sf3I8Q-wYQA">PyGame was a deadend</a> for us.&nbsp;</p>
-<p>&nbsp;</p>
+
 <p>Instructions are based on <strong>OS X 10.8.2 Mountain Lion</strong>. Most of these instructions were gleaned from&nbsp;<a href="http://cratel.wichita.edu/cratel/cratel%20pyportmidi#build_on_OS_X">http://cratel.wichita.edu/cratel/cratel%20pyportmidi#build_on_OS_X</a>.</p>
-<p>&nbsp;</p>
+
 <p>You may also need to install <a href="http://kennethreitz.com/xcode-gcc-and-homebrew.html">XCode command line tools</a>.</p>
-<p>&nbsp;</p>
+
 <ol>
 <li>Install <a href="http://mxcl.github.com/homebrew/">homebrew</a> and run "<em>brew doctor</em>" to make sure everything is ok.</li>
 <li>Install portmidi (installing portmidi from source failed for us).</li>

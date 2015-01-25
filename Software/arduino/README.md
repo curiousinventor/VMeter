@@ -6,7 +6,9 @@ Warning: this code is based on an earlier version of the Arduino USB Host shield
 
 <h1>Using VMeter and Arduino to control a Fan, Servo Motors, and Read Analog Input</h1>
 
-<p><iframe src="http://www.youtube.com/embed/fYatmbv_9Qo" width="420" height="315" frameborder="0"></iframe></p>
+[![Python VMeter MIDI Demo Video](http://img.youtube.com/vi/fYatmbv_9Qo/0.jpg)](http://www.youtube.com/watch?v=fYatmbv_9Qo)
+
+Python VMeter MIDI Demo Video
 
 <p>Using an Arduino and USB Host shield, you can use the VMeter to visualize and control physical knobs and motors.&nbsp;</p>
 
