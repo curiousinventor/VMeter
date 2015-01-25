@@ -1,6 +1,8 @@
 Instructions copied from <a href="http://vmeter.net/python-control-of-vmeter-usb-midi-device-via-pyportmidi-and-portmidi/">VMeter Python MIDI Control</a>.
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/rwfxXF12d7I?list=UUOGrxFj_j7PZRQM63OFCwmA" frameborder="0" allowfullscreen></iframe>
+[![VMeter Python Video Demo](http://img.youtube.com/vi/rwfxXF12d7I/0.jpg)](http://www.youtube.com/watch?v=rwfxXF12d7I)
+
+VMeter Python Demo
 
 <h1>Python Control of VMeter USB MIDI Device via PyPortMIDI and MidiPort</h1>
 <p>&nbsp;</p>
