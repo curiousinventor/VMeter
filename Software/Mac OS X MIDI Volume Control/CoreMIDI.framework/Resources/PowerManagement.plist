@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+	<array>
+		<dict>
+			<!-- Roland UM-880 -->
+			<key>IOProviderClass</key>
+			<string>IOUSBDevice</string>
+			<key>idVendor</key>
+			<integer>1410</integer>
+			<key>idProduct</key>
+			<integer>21</integer>
+		</dict>
+		<dict>
+			<!-- Evolution MK-449c -->
+			<key>IOProviderClass</key>
+			<string>IOUSBDevice</string>
+			<key>idVendor</key>
+			<integer>2637</integer>
+			<key>idProduct</key>
+			<integer>143</integer>
+		</dict>
+		<dict>
+			<!-- Evolution Keystation 49c -->
+			<key>IOProviderClass</key>
+			<string>IOUSBDevice</string>
+			<key>idVendor</key>
+			<integer>2637</integer>
+			<key>idProduct</key>
+			<integer>144</integer>
+		</dict>
+		<dict>
+			<!-- Evolution MK-461C -->
+			<key>IOProviderClass</key>
+			<string>IOUSBDevice</string>
+			<key>idVendor</key>
+			<integer>2637</integer>
+			<key>idProduct</key>
+			<integer>163</integer>
+		</dict>
+		<dict>
+			<!-- Evolution UC-33e -->
+			<key>IOProviderClass</key>
+			<string>IOUSBDevice</string>
+			<key>idVendor</key>
+			<integer>2637</integer>
+			<key>idProduct</key>
+			<integer>245</integer>
+		</dict>
+		<dict>
+			<!-- M-Audio Radium 49 -->
+			<key>IOProviderClass</key>
+			<string>IOUSBDevice</string>
+			<key>idVendor</key>
+			<integer>1891</integer>
+			<key>idProduct</key>
+			<integer>4116</integer>
+		</dict>
+		<dict>
+			<!-- ESI-M4U -->
+			<key>IOProviderClass</key>
+			<string>IOUSBDevice</string>
+			<key>idVendor</key>
+			<integer>2706</integer>
+			<key>idProduct</key>
+			<integer>4128</integer>
+		</dict>
+	</array>
+</plist>

@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372C1C28135DF0330027A2EC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372C1C27135DF0330027A2EC /* Cocoa.framework */; };
+		372C1C32135DF0330027A2EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 372C1C30135DF0330027A2EC /* InfoPlist.strings */; };
+		372C1C35135DF0330027A2EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 372C1C34135DF0330027A2EC /* main.m */; };
+		372C1C38135DF0330027A2EC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 372C1C36135DF0330027A2EC /* Credits.rtf */; };
+		372C1C3B135DF0330027A2EC /* SoundControlSimpleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 372C1C3A135DF0330027A2EC /* SoundControlSimpleAppDelegate.m */; };
+		372C1C46135DF04D0027A2EC /* SoundC.m in Sources */ = {isa = PBXBuildFile; fileRef = 372C1C45135DF04D0027A2EC /* SoundC.m */; };
+		3797A1FD1361778C009B812B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3797A1FA1361778C009B812B /* AudioToolbox.framework */; };
+		3797A1FE1361778C009B812B /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3797A1FB1361778C009B812B /* AudioUnit.framework */; };
+		3797A1FF1361778C009B812B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3797A1FC1361778C009B812B /* CoreAudio.framework */; };
+		D201AB361380C3AD00C30AC5 /* toolbar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D201AB351380C3AD00C30AC5 /* toolbar-icon.png */; };
+		D20A253713D2AFC7003AC124 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = D20A253613D2AFC7003AC124 /* readme.txt */; };
+		D27E5717140365DD00685884 /* icon_128x128.icns in Resources */ = {isa = PBXBuildFile; fileRef = D27E5716140365DD00685884 /* icon_128x128.icns */; };
+		D28B38B713737D89006BBE78 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B38AD13737D89006BBE78 /* AppController.m */; };
+		D28B38B813737D89006BBE78 /* VariableStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B38AE13737D89006BBE78 /* VariableStore.m */; };
+		D28B38B913737D89006BBE78 /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B38B013737D89006BBE78 /* MAAttachedWindow.m */; };
+		D28B38BA13737D89006BBE78 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B38B213737D89006BBE78 /* CustomView.m */; };
+		D28B38BC13737D89006BBE78 /* toolbar-icon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D28B38B613737D89006BBE78 /* toolbar-icon-2.png */; };
+		D28B38C113737EBB006BBE78 /* MainMenu2.xib in Resources */ = {isa = PBXBuildFile; fileRef = D28B38BF13737EBB006BBE78 /* MainMenu2.xib */; };
+		D28B38C41373A13B006BBE78 /* hid.c in Sources */ = {isa = PBXBuildFile; fileRef = D28B38C21373A13B006BBE78 /* hid.c */; };
+		D28B38C81373A318006BBE78 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28B38C71373A318006BBE78 /* IOKit.framework */; };
+		D2D476A013B4BC34008CE235 /* VVBasics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D4769E13B4BC34008CE235 /* VVBasics.framework */; };
+		D2D476A113B4BC34008CE235 /* VVMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D4769F13B4BC34008CE235 /* VVMIDI.framework */; };
+		D2D476A213B4BC45008CE235 /* VVBasics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D2D4769E13B4BC34008CE235 /* VVBasics.framework */; };
+		D2D476A313B4BC45008CE235 /* VVMIDI.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D2D4769F13B4BC34008CE235 /* VVMIDI.framework */; };
+		D2EA528A14035F5200DDB2EA /* icon_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = D2EA528614035F5200DDB2EA /* icon_16x16.png */; };
+		D2EA528B14035F5200DDB2EA /* icon_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = D2EA528714035F5200DDB2EA /* icon_32x32.png */; };
+		D2EA528E14035F7500DDB2EA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D2EA528414035DAB00DDB2EA /* icon.png */; };
+		D2F72CB513B0617F00ABB817 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F72CB413B0617F00ABB817 /* CoreMIDI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D24E076913AC87FD00053E71 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D2D476A213B4BC45008CE235 /* VVBasics.framework in CopyFiles */,
+				D2D476A313B4BC45008CE235 /* VVMIDI.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		372C1C23135DF0330027A2EC /* VMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		372C1C27135DF0330027A2EC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		372C1C2A135DF0330027A2EC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		372C1C2B135DF0330027A2EC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		372C1C2C135DF0330027A2EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		372C1C2F135DF0330027A2EC /* SoundControlSimple-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundControlSimple-Info.plist"; sourceTree = "<group>"; };
+		372C1C31135DF0330027A2EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		372C1C33135DF0330027A2EC /* VMeter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VMeter-Prefix.pch"; sourceTree = "<group>"; };
+		372C1C34135DF0330027A2EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		372C1C37135DF0330027A2EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		372C1C39135DF0330027A2EC /* SoundControlSimpleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundControlSimpleAppDelegate.h; sourceTree = "<group>"; };
+		372C1C3A135DF0330027A2EC /* SoundControlSimpleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundControlSimpleAppDelegate.m; sourceTree = "<group>"; };
+		372C1C44135DF04D0027A2EC /* SoundC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundC.h; sourceTree = "<group>"; };
+		372C1C45135DF04D0027A2EC /* SoundC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundC.m; sourceTree = "<group>"; };
+		3797A1FA1361778C009B812B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3797A1FB1361778C009B812B /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		3797A1FC1361778C009B812B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		D201AB351380C3AD00C30AC5 /* toolbar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbar-icon.png"; path = "SoundControlSimple/toolbar-icon.png"; sourceTree = "<group>"; };
+		D20A253613D2AFC7003AC124 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		D27E5716140365DD00685884 /* icon_128x128.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon_128x128.icns; sourceTree = "<group>"; };
+		D28B38AD13737D89006BBE78 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = SoundControlSimple/AppController.m; sourceTree = "<group>"; };
+		D28B38AE13737D89006BBE78 /* VariableStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VariableStore.m; path = SoundControlSimple/VariableStore.m; sourceTree = "<group>"; };
+		D28B38AF13737D89006BBE78 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = SoundControlSimple/AppController.h; sourceTree = "<group>"; };
+		D28B38B013737D89006BBE78 /* MAAttachedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MAAttachedWindow.m; path = SoundControlSimple/MAAttachedWindow.m; sourceTree = "<group>"; };
+		D28B38B113737D89006BBE78 /* MAAttachedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MAAttachedWindow.h; path = SoundControlSimple/MAAttachedWindow.h; sourceTree = "<group>"; };
+		D28B38B213737D89006BBE78 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomView.m; path = SoundControlSimple/CustomView.m; sourceTree = "<group>"; };
+		D28B38B313737D89006BBE78 /* VariableStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VariableStore.h; path = SoundControlSimple/VariableStore.h; sourceTree = "<group>"; };
+		D28B38B413737D89006BBE78 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomView.h; path = SoundControlSimple/CustomView.h; sourceTree = "<group>"; };
+		D28B38B613737D89006BBE78 /* toolbar-icon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbar-icon-2.png"; path = "SoundControlSimple/toolbar-icon-2.png"; sourceTree = "<group>"; };
+		D28B38C013737EBB006BBE78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu2.xib; sourceTree = "<group>"; };
+		D28B38C21373A13B006BBE78 /* hid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hid.c; path = SoundControlSimple/hid.c; sourceTree = "<group>"; };
+		D28B38C31373A13B006BBE78 /* hidapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hidapi.h; path = SoundControlSimple/hidapi.h; sourceTree = "<group>"; };
+		D28B38C71373A318006BBE78 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = ../../../../../../../../../System/Library/Frameworks/IOKit.framework; sourceTree = "<group>"; };
+		D2D4769E13B4BC34008CE235 /* VVBasics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VVBasics.framework; sourceTree = "<group>"; };
+		D2D4769F13B4BC34008CE235 /* VVMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VVMIDI.framework; sourceTree = "<group>"; };
+		D2EA528414035DAB00DDB2EA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D2EA528614035F5200DDB2EA /* icon_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_16x16.png; sourceTree = "<group>"; };
+		D2EA528714035F5200DDB2EA /* icon_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_32x32.png; sourceTree = "<group>"; };
+		D2EA528814035F5200DDB2EA /* icon_96x96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_96x96.png; sourceTree = "<group>"; };
+		D2F72CB413B0617F00ABB817 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreMIDI.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372C1C20135DF0330027A2EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3797A1FD1361778C009B812B /* AudioToolbox.framework in Frameworks */,
+				3797A1FE1361778C009B812B /* AudioUnit.framework in Frameworks */,
+				3797A1FF1361778C009B812B /* CoreAudio.framework in Frameworks */,
+				372C1C28135DF0330027A2EC /* Cocoa.framework in Frameworks */,
+				D28B38C81373A318006BBE78 /* IOKit.framework in Frameworks */,
+				D2F72CB513B0617F00ABB817 /* CoreMIDI.framework in Frameworks */,
+				D2D476A013B4BC34008CE235 /* VVBasics.framework in Frameworks */,
+				D2D476A113B4BC34008CE235 /* VVMIDI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		372C1C18135DF0330027A2EC = {
+			isa = PBXGroup;
+			children = (
+				D27E5716140365DD00685884 /* icon_128x128.icns */,
+				D2EA528414035DAB00DDB2EA /* icon.png */,
+				D2EA528614035F5200DDB2EA /* icon_16x16.png */,
+				D2EA528714035F5200DDB2EA /* icon_32x32.png */,
+				D2EA528814035F5200DDB2EA /* icon_96x96.png */,
+				D28B38C21373A13B006BBE78 /* hid.c */,
+				D28B38C31373A13B006BBE78 /* hidapi.h */,
+				D28B38AF13737D89006BBE78 /* AppController.h */,
+				D28B38AD13737D89006BBE78 /* AppController.m */,
+				D20A253613D2AFC7003AC124 /* readme.txt */,
+				D28B38AE13737D89006BBE78 /* VariableStore.m */,
+				D28B38B313737D89006BBE78 /* VariableStore.h */,
+				D28B38B013737D89006BBE78 /* MAAttachedWindow.m */,
+				D28B38B113737D89006BBE78 /* MAAttachedWindow.h */,
+				D28B38B213737D89006BBE78 /* CustomView.m */,
+				D28B38B413737D89006BBE78 /* CustomView.h */,
+				D201AB351380C3AD00C30AC5 /* toolbar-icon.png */,
+				D28B38B613737D89006BBE78 /* toolbar-icon-2.png */,
+				3797A20113617CB3009B812B /* SoundC */,
+				372C1C2D135DF0330027A2EC /* SoundControlSimple */,
+				372C1C26135DF0330027A2EC /* Frameworks */,
+				372C1C24135DF0330027A2EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		372C1C24135DF0330027A2EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				372C1C23135DF0330027A2EC /* VMeter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		372C1C26135DF0330027A2EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2D4769E13B4BC34008CE235 /* VVBasics.framework */,
+				D2D4769F13B4BC34008CE235 /* VVMIDI.framework */,
+				D2F72CB413B0617F00ABB817 /* CoreMIDI.framework */,
+				D28B38C71373A318006BBE78 /* IOKit.framework */,
+				3797A1FA1361778C009B812B /* AudioToolbox.framework */,
+				3797A1FB1361778C009B812B /* AudioUnit.framework */,
+				3797A1FC1361778C009B812B /* CoreAudio.framework */,
+				372C1C27135DF0330027A2EC /* Cocoa.framework */,
+				372C1C29135DF0330027A2EC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		372C1C29135DF0330027A2EC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				372C1C2A135DF0330027A2EC /* AppKit.framework */,
+				372C1C2B135DF0330027A2EC /* CoreData.framework */,
+				372C1C2C135DF0330027A2EC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		372C1C2D135DF0330027A2EC /* SoundControlSimple */ = {
+			isa = PBXGroup;
+			children = (
+				D28B38BF13737EBB006BBE78 /* MainMenu2.xib */,
+				372C1C39135DF0330027A2EC /* SoundControlSimpleAppDelegate.h */,
+				372C1C3A135DF0330027A2EC /* SoundControlSimpleAppDelegate.m */,
+				372C1C2E135DF0330027A2EC /* Supporting Files */,
+			);
+			path = SoundControlSimple;
+			sourceTree = "<group>";
+		};
+		372C1C2E135DF0330027A2EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				372C1C2F135DF0330027A2EC /* SoundControlSimple-Info.plist */,
+				372C1C30135DF0330027A2EC /* InfoPlist.strings */,
+				372C1C33135DF0330027A2EC /* VMeter-Prefix.pch */,
+				372C1C34135DF0330027A2EC /* main.m */,
+				372C1C36135DF0330027A2EC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3797A20113617CB3009B812B /* SoundC */ = {
+			isa = PBXGroup;
+			children = (
+				372C1C44135DF04D0027A2EC /* SoundC.h */,
+				372C1C45135DF04D0027A2EC /* SoundC.m */,
+			);
+			name = SoundC;
+			path = SoundControlSimple;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		372C1C22135DF0330027A2EC /* VMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372C1C41135DF0330027A2EC /* Build configuration list for PBXNativeTarget "VMeter" */;
+			buildPhases = (
+				372C1C1F135DF0330027A2EC /* Sources */,
+				372C1C20135DF0330027A2EC /* Frameworks */,
+				372C1C21135DF0330027A2EC /* Resources */,
+				D24E076913AC87FD00053E71 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VMeter;
+			productName = SoundControlSimple;
+			productReference = 372C1C23135DF0330027A2EC /* VMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		372C1C1A135DF0330027A2EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = SmartCodeHQ;
+			};
+			buildConfigurationList = 372C1C1D135DF0330027A2EC /* Build configuration list for PBXProject "VMeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 372C1C18135DF0330027A2EC;
+			productRefGroup = 372C1C24135DF0330027A2EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				372C1C22135DF0330027A2EC /* VMeter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		372C1C21135DF0330027A2EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372C1C32135DF0330027A2EC /* InfoPlist.strings in Resources */,
+				372C1C38135DF0330027A2EC /* Credits.rtf in Resources */,
+				D28B38BC13737D89006BBE78 /* toolbar-icon-2.png in Resources */,
+				D28B38C113737EBB006BBE78 /* MainMenu2.xib in Resources */,
+				D201AB361380C3AD00C30AC5 /* toolbar-icon.png in Resources */,
+				D20A253713D2AFC7003AC124 /* readme.txt in Resources */,
+				D2EA528A14035F5200DDB2EA /* icon_16x16.png in Resources */,
+				D2EA528B14035F5200DDB2EA /* icon_32x32.png in Resources */,
+				D2EA528E14035F7500DDB2EA /* icon.png in Resources */,
+				D27E5717140365DD00685884 /* icon_128x128.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372C1C1F135DF0330027A2EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372C1C35135DF0330027A2EC /* main.m in Sources */,
+				372C1C3B135DF0330027A2EC /* SoundControlSimpleAppDelegate.m in Sources */,
+				372C1C46135DF04D0027A2EC /* SoundC.m in Sources */,
+				D28B38B713737D89006BBE78 /* AppController.m in Sources */,
+				D28B38B813737D89006BBE78 /* VariableStore.m in Sources */,
+				D28B38B913737D89006BBE78 /* MAAttachedWindow.m in Sources */,
+				D28B38BA13737D89006BBE78 /* CustomView.m in Sources */,
+				D28B38C41373A13B006BBE78 /* hid.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		372C1C30135DF0330027A2EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372C1C31135DF0330027A2EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		372C1C36135DF0330027A2EC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372C1C37135DF0330027A2EC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D28B38BF13737EBB006BBE78 /* MainMenu2.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28B38C013737EBB006BBE78 /* en */,
+			);
+			name = MainMenu2.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		372C1C3F135DF0330027A2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Curious Inventor, LLC";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		372C1C40135DF0330027A2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Curious Inventor, LLC";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+		372C1C42135DF0330027A2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundControlSimple/VMeter-Prefix.pch";
+				INFOPLIST_FILE = "SoundControlSimple/SoundControlSimple-Info.plist";
+				PRODUCT_NAME = VMeter;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		372C1C43135DF0330027A2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundControlSimple/VMeter-Prefix.pch";
+				INFOPLIST_FILE = "SoundControlSimple/SoundControlSimple-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = VMeter;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		372C1C1D135DF0330027A2EC /* Build configuration list for PBXProject "VMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372C1C3F135DF0330027A2EC /* Debug */,
+				372C1C40135DF0330027A2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372C1C41135DF0330027A2EC /* Build configuration list for PBXNativeTarget "VMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372C1C42135DF0330027A2EC /* Debug */,
+				372C1C43135DF0330027A2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 372C1C1A135DF0330027A2EC /* Project object */;
+}
