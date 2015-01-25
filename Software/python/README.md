@@ -1,5 +1,7 @@
 Instructions copied from <a href="http://vmeter.net/python-control-of-vmeter-usb-midi-device-via-pyportmidi-and-portmidi/">VMeter Python MIDI Control</a>.
 
+<iframe width="560" height="315" src="//www.youtube.com/embed/rwfxXF12d7I?list=UUOGrxFj_j7PZRQM63OFCwmA" frameborder="0" allowfullscreen></iframe>
+
 <h1>Python Control of VMeter USB MIDI Device via PyPortMIDI and MidiPort</h1>
 <p>&nbsp;</p>
 <p>This tutorial will show how to setup pyMidiPort on OS X to control the VMeter USB MIDI device with python scripts. Using the new sysex commands in the latest VMeter firmware (1.8, only on hardware rev B+), you can control every single LED directly (not just columns as with MIDI Controller messages).</p>
