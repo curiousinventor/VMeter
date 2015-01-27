@@ -30,5 +30,7 @@ The hardware includes
 * kicad schematic, libraries, final gerbers
 * acrylic laser cut outlines and silk-screen for top
 * BOM
+
+There's also a <a href="https://www.youtube.com/watch?v=vIvTeHWfouA">video</a> that walks through the hardware design and explains much of the operational theory. 
  
 designed and developed by <a href="http://www.scottdriscoll.me">Scott Driscoll</a>.
